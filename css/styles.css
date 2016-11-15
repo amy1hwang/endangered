@@ -1,0 +1,75 @@
+body {
+  background: url("../img/greyMap.jpg");
+  background-position: center fixed;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: rgb(64, 64, 64);
+  position: relative;
+}
+
+.animal img {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+#animal1 {
+  position: absolute;
+  left: 1200px;
+  top: 800px;
+}
+
+#animal2 {
+  position: absolute;
+  left: 1600px;
+  top: 600px;
+}
+
+#animal3 {
+  position: absolute;
+  left: 1900px;
+  top: 1080px;
+}
+
+#animal4 {
+  position: absolute;
+  left: 300px;
+  top: 1000px;
+}
+
+#animal5 {
+  position: absolute;
+  left: 750px;
+  top: 900px;
+}
+
+#animal6 {
+  position: absolute;
+  left: 1130px;
+  top: 570px;
+}
+#animal7 {
+  position: absolute;
+  left: 80px;
+  top: 760px;
+}
+
+#animal8 {
+position: absolute;
+left: 450px;
+top: 650px;
+}
+
+
+#animal9 {
+  position: absolute;
+  left: 540px;
+  top: 890px;
+}
+
+#animal10 {
+  position: absolute;
+  left: 1350px;
+  top: 650px;
+}*/
