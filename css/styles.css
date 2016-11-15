@@ -26,6 +26,13 @@ h1 {
   font-size: 0.8em;
 }
 
+.gradients {
+  position: relative;
+  width: 1600px;
+  height: 2000px;
+  z-index: -1;
+}
+
 .animal img {
   width: 100px;
   height: 100px;
@@ -84,6 +91,7 @@ h1 {
   text-shadow: 10px 10px 20px #000;
 }
 
+
 #animal3 img:active + p {
   position: relative;
   width: 280px;
@@ -103,6 +111,14 @@ h1 {
   color: rgba(88, 214, 141, 1);
 }
 
+#animal1:hover ~ .gradients {
+  /*background: rgba(255, 0, 0, 0);*/
+  background: -webkit-linear-gradient(left, rgba(88, 214, 141, 0.4), rgba(88, 214, 141, 0));
+  background: -o-linear-gradient(bottom right, rgba(88, 214, 141, 0.4), rgba(88, 214, 141, 0));
+  background: -moz-linear-gradient(bottom right, rgba(88, 214, 141, 0.4), rgba(88, 214, 141, 0));
+  background: linear-gradient(to right, rgba(88, 214, 141, 0.4), rgba(88, 214, 141, 0));
+}
+
 #animal1p {
   background-color: rgba(88, 214, 141, 0.6);
 }
@@ -111,6 +127,14 @@ h1 {
   position: absolute;
   left: 1600px;
   top: 600px;
+}
+
+#animal2:hover ~ .gradients {
+  /*background: rgba(255, 0, 0, 0);*/
+  background: -webkit-linear-gradient(left, rgba(38, 166, 154, 0.4), rgba(38, 166, 154, 0));
+  background: -o-linear-gradient(bottom right, rgba(38, 166, 154, 0.4), rgba(38, 166, 154, 0));
+  background: -moz-linear-gradient(bottom right, rgba(38, 166, 154, 0.4), rgba(38, 166, 154, 0));
+  background: linear-gradient(to right, rgba(38, 166, 154, 0.4), rgba(38, 166, 154, 0));
 }
 
 #animal2:hover ~ h1 {
@@ -127,6 +151,14 @@ h1 {
   top: 980px;
 }
 
+#animal3:hover ~ .gradients {
+  /*background: rgba(255, 0, 0, 0);*/
+  background: -webkit-linear-gradient(left, rgba(86, 104, 200, 0.4), rgba(86, 104, 200, 0));
+  background: -o-linear-gradient(bottom right, rgba(86, 104, 200, 0.4), rgba(86, 104, 200, 0));
+  background: -moz-linear-gradient(bottom right, rgba(86, 104, 200, 0.4), rgba(86, 104, 200, 0));
+  background: linear-gradient(to right, rgba(86, 104, 200, 0.4), rgba(86, 104, 200, 0));
+}
+
 #animal3:hover ~ h1 {
   color: rgba(86, 104, 200, 1);
 }
@@ -140,6 +172,15 @@ h1 {
   left: 270px;
   top: 900px;
 }
+
+#animal4:hover ~ .gradients {
+  /*background: rgba(255, 0, 0, 0);*/
+  background: -webkit-linear-gradient(left, rgba(100, 229, 254, 0.4), rgba(100, 229, 254, 0));
+  background: -o-linear-gradient(bottom right, rgba(100, 229, 254, 0.4), rgba(100, 229, 254, 0));
+  background: -moz-linear-gradient(bottom right, rgba(100, 229, 254, 0.4), rgba(100, 229, 254, 0));
+  background: linear-gradient(to right, rgba(100, 229, 254, 0.4), rgba(100, 229, 254, 0));
+}
+
 
 #animal4:hover ~ h1 {
   color: rgba(100, 229, 254, 1);
@@ -155,6 +196,15 @@ h1 {
   top: 900px;
 }
 
+#animal5:hover ~ .gradients {
+  /*background: rgba(255, 0, 0, 0);*/
+  background: -webkit-linear-gradient(left, rgba(113, 150, 64, 0.4), rgba(113, 150, 64, 0));
+  background: -o-linear-gradient(bottom right, rgba(113, 150, 64, 0.4), rgba(113, 150, 64, 0));
+  background: -moz-linear-gradient(bottom right, rgba(113, 150, 64, 0.4), rgba(113, 150, 64, 0));
+  background: linear-gradient(to right, rgba(113, 150, 64, 0.4), rgba(113, 150, 64, 0));
+}
+
+
 #animal5:hover ~ h1 {
   color: rgba(113, 150, 64, 1);
 }
@@ -168,6 +218,15 @@ h1 {
   left: 1130px;
   top: 570px;
 }
+
+#animal6:hover ~ .gradients {
+  /*background: rgba(255, 0, 0, 0);*/
+  background: -webkit-linear-gradient(left, rgba(62, 213, 210, 0.4), rgba(62, 213, 210, 0));
+  background: -o-linear-gradient(bottom right, rgba(62, 213, 210, 0.4), rgba(62, 213, 210, 0));
+  background: -moz-linear-gradient(bottom right, rgba(62, 213, 210, 0.4), rgba(62, 213, 210, 0));
+  background: linear-gradient(to right, rgba(62, 213, 210, 0.4), rgba(62, 213, 210, 0));
+}
+
 
 #animal6:hover ~ h1 {
   color: rgba(62, 213, 210, 1);
@@ -183,8 +242,17 @@ h1 {
   top: 760px;
 }
 
+#animal7:hover ~ .gradients {
+  /*background: rgba(255, 0, 0, 0);*/
+  background: -webkit-linear-gradient(left, rgba(122, 177, 73, 0.4), rgba(122, 177, 73, 0));
+  background: -o-linear-gradient(bottom right, rgba(122, 177, 73, 0.4), rgba(122, 177, 73, 0));
+  background: -moz-linear-gradient(bottom right, rgba(122, 177, 73, 0.4), rgba(122, 177, 73, 0));
+  background: linear-gradient(to right, rgba(122, 177, 73, 0.4), rgba(122, 177, 73, 0));
+}
+
+
 #animal7:hover ~ h1 {
-  color: rgba(122, 177, 73,  1);
+  color: rgba(122, 177, 73, 1);
 }
 
 #animal7p {
@@ -195,6 +263,14 @@ h1 {
 position: absolute;
 left: 450px;
 top: 650px;
+}
+
+#animal8:hover ~ .gradients {
+  /*background: rgba(255, 0, 0, 0);*/
+  background: -webkit-linear-gradient(left, rgba(255, 216, 76, 0.4), rgba(255, 216, 76, 0));
+  background: -o-linear-gradient(bottom right, rgba(255, 216, 76, 0.4), rgba(255, 216, 76, 0));
+  background: -moz-linear-gradient(bottom right, rgba(255, 216, 76, 0.4), rgba(255, 216, 76, 0));
+  background: linear-gradient(to right, rgba(255, 216, 76, 0.4), rgba(255, 216, 76, 0));
 }
 
 #animal8:hover ~ h1 {
@@ -211,6 +287,14 @@ top: 650px;
   top: 890px;
 }
 
+#animal9:hover ~ .gradients {
+  /*background: rgba(255, 0, 0, 0);*/
+  background: -webkit-linear-gradient(left, rgba(121, 60, 9, 0.4), rgba(121, 60, 9, 0));
+  background: -o-linear-gradient(bottom right, rgba(121, 60, 9, 0.4), rgba(121, 60, 9, 0));
+  background: -moz-linear-gradient(bottom right, rgba(121, 60, 9, 0.4), rgba(121, 60, 9, 0));
+  background: linear-gradient(to right, rgba(121, 60, 9, 0.4), rgba(121, 60, 9, 0));
+}
+
 #animal9:hover ~ h1 {
   color: rgba(121, 60, 9, 1);
 }
@@ -223,6 +307,14 @@ top: 650px;
   position: absolute;
   left: 1350px;
   top: 650px;
+}
+
+#animal10:hover ~ .gradients {
+  /*background: rgba(255, 0, 0, 0);*/
+  background: -webkit-linear-gradient(left, rgba(186, 104, 200, 0.4), rgba(186, 104, 200, 0));
+  background: -o-linear-gradient(bottom right, rgba(186, 104, 200, 0.4), rgba(186, 104, 200, 0));
+  background: -moz-linear-gradient(bottom right, rgba(186, 104, 200, 0.4), rgba(186, 104, 200, 0));
+  background: linear-gradient(to right, rgba(186, 104, 200, 0.4), rgba(186, 104, 200, 0));
 }
 
 #animal10:hover ~ h1 {
