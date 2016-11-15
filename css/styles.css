@@ -7,6 +7,25 @@ body {
   position: relative;
 }
 
+h1 {
+  font-size: 6em;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: 'Sansita One', cursive;
+}
+
+.smaller {
+  font-size: 0.9em;
+}
+
+.smallest {
+  font-size: 0.8em;
+}
+
 .animal img {
   width: 100px;
   height: 100px;
@@ -15,22 +34,30 @@ body {
   filter: blur(2px) grayscale(100%);
 }
 
-.animal {
+/*.animal {
   width: 200px;
   height: 200px;
-}
+}*/
 
 .animal p {
   display: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 15px #333;
+  padding: 10px;
+  text-align: center;
+  width: 175px;
 }
-
 
 .animal img:hover {
   filter: blur(0px) grayscale(0%);
+  box-shadow: 2px 2px 15px #222;
 }
 
 .animal img:hover + p{
   display: block;
+  position: relative;
+  top: -10px;
+  left: -45px;
 }
 
 .animal img:active {
@@ -42,14 +69,42 @@ body {
   position: relative;
   top: -80px;
   left: -80px;
-
 }
 
+.animal img:active + p {
+  position: relative;
+  width: 280px;
+  top: -90px;
+  left: -80px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.animal:hover ~ h1 {
+  text-shadow: 10px 10px 20px #000;
+}
+
+#animal3 img:active + p {
+  position: relative;
+  width: 280px;
+  top: -482px;
+  left: -80px;
+  border-radius: 10px;
+  z-index: 1;
+}
 
 #animal1 {
   position: absolute;
   left: 1200px;
   top: 800px;
+}
+
+#animal1:hover ~ h1 {
+  color: rgba(88, 214, 141, 1);
+}
+
+#animal1p {
+  background-color: rgba(88, 214, 141, 0.6);
 }
 
 #animal2 {
@@ -58,16 +113,40 @@ body {
   top: 600px;
 }
 
+#animal2:hover ~ h1 {
+  color: rgba(38, 166, 154, 1);
+}
+
+#animal2p {
+  background-color: rgba(38, 166, 154, 0.7);
+}
+
 #animal3 {
   position: absolute;
-  left: 1900px;
-  top: 1080px;
+  left: 1700px;
+  top: 980px;
+}
+
+#animal3:hover ~ h1 {
+  color: rgba(86, 104, 200, 1);
+}
+
+#animal3p {
+  background-color: rgba(86, 104, 200, 0.9);
 }
 
 #animal4 {
   position: absolute;
-  left: 300px;
-  top: 1000px;
+  left: 270px;
+  top: 900px;
+}
+
+#animal4:hover ~ h1 {
+  color: rgba(100, 229, 254, 1);
+}
+
+#animal4p {
+  background-color: rgba(100, 229, 254, 0.4);
 }
 
 #animal5 {
@@ -76,15 +155,40 @@ body {
   top: 900px;
 }
 
+#animal5:hover ~ h1 {
+  color: rgba(113, 150, 64, 1);
+}
+
+#animal5p {
+  background-color: rgba(113, 150, 64, 0.7);
+}
+
 #animal6 {
   position: absolute;
   left: 1130px;
   top: 570px;
 }
+
+#animal6:hover ~ h1 {
+  color: rgba(62, 213, 210, 1);
+}
+
+#animal6p {
+  background-color: rgba(62, 213, 210, 0.6);
+}
+
 #animal7 {
   position: absolute;
   left: 80px;
   top: 760px;
+}
+
+#animal7:hover ~ h1 {
+  color: rgba(122, 177, 73,  1);
+}
+
+#animal7p {
+  background-color: rgba(122, 177, 73, 0.6);
 }
 
 #animal8 {
@@ -93,6 +197,13 @@ left: 450px;
 top: 650px;
 }
 
+#animal8:hover ~ h1 {
+  color: rgba(255, 216, 76, 1);
+}
+
+#animal8p {
+  background-color: rgba(255, 216, 76, 0.7);
+}
 
 #animal9 {
   position: absolute;
@@ -100,8 +211,24 @@ top: 650px;
   top: 890px;
 }
 
+#animal9:hover ~ h1 {
+  color: rgba(121, 60, 9, 1);
+}
+
+#animal9p {
+  background-color: rgba(121, 60, 9, 0.7);
+}
+
 #animal10 {
   position: absolute;
   left: 1350px;
   top: 650px;
-}*/
+}
+
+#animal10:hover ~ h1 {
+  color: rgba(186, 104, 200, 1);
+}
+
+#animal10p {
+  background-color: rgba(186, 104, 200, 0.7);
+}
